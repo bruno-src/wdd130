@@ -1,0 +1,54 @@
+:root{
+    --primary-color:#1525d3; /* Chrysler blue */
+    --secondary-color:#17bd76; /* Mentis */
+    --accent1-color:#c28c53; /* Mion */
+    --accent2-color:#7bb3ab; /* Cambridje blue */
+    --heading-font:Montserrat alternates 400,700 bold;
+    --body-font:asap;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: var(--body-font);
+    color:var(--accent1-color);
+}
+header,main,footer{
+    width: 840px;
+    margin: 0 auto;
+}
+h1,h2{
+    font-family: var(--heading-font);
+    color:var(--primary-color)
+}
+nav,p,section,article{
+    margin: 16px;
+    padding: 8px;
+}
+.socialmedia a{
+    text-decoration: none;
+}
+.hero{
+    position:relative;
+}
+.hero img{
+    width: 100%;
+    height: auto;
+    display: block;
+}
+h1{
+    position: absolute;
+    top: 20px;
+    width: 100%;
+    padding: 16px;
+    text-align: center;
+    opacity: o.7;
+    background-color: var(--accent1-color);
+    color:#fff
+}
+.hero article img{
+    float: right;
+    width: 125px;
+}
