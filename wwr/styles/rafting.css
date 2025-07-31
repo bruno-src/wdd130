@@ -1,7 +1,7 @@
 :root{
     --primary-color:#1525d3; /* Chrysler blue */
     --secondary-color:#17bd76; /* Mentis */
-    --accent1-color:#c28c53; /* Mion */
+    --accent1-color:#7f4b14; /* Mion */
     --accent2-color:#7bb3ab; /* Cambridje blue */
     --heading-font:Montserrat alternates 400,700 bold;
     --body-font:asap;
@@ -29,6 +29,7 @@ nav,p,section,article{
 }
 .socialmedia a{
     text-decoration: none;
+  
 }
 .hero{
     position: relative;
@@ -62,4 +63,53 @@ h1{
     width: 100%;
     bottom: 70px;
     left: 20px;  
+}
+header {
+    height: 90px;
+	margin: 1rem auto;
+	display: grid;
+	grid-template-columns: 120px auto auto;
+	align-items:center;
+	border-bottom: 1px solid #ccc;
+	max-width: 1000px;
+    background-color: aquamarine;
+}
+header img{
+	margin: 0 0.25rem 0 1rem;
+	width: 85px;
+	height: auto;
+    border-radius: 20px;
+}
+.navigation{
+    justify-content:space-around;
+	display: flex;
+	flex-wrap: wrap;
+	list-style: none;
+	padding: 0;
+	font-family: Arial, sans-serif;
+}
+section h2 {
+    text-align: center;
+}
+section img{
+    width: 120px;
+    height: auto;
+    display: inline;
+}
+figure{
+    display: inline;
+}
+footer{
+    display:grid;
+    grid-template-columns:120px 3fr 1fr;
+    background-color: aquamarine;
+}
+.socialmedia img{
+    width: 25px;
+}
+figcaption{
+    position: relative;
+    right:80px;
+    top:20px;
+    display: inline;
 }
