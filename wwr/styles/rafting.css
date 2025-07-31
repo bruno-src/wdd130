@@ -92,7 +92,7 @@ section h2 {
     text-align: center;
 }
 section img{
-    width: 120px;
+    width: 70px;
     height: auto;
     display: inline;
 }
@@ -109,7 +109,7 @@ footer{
 }
 figcaption{
     position: relative;
-    right:80px;
-    top:20px;
+    right:90px;
+    top:18px;
     display: inline;
 }
