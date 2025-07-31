@@ -109,7 +109,8 @@ footer{
 }
 figcaption{
     position: relative;
-    right:90px;
+    right:98px;
     top:18px;
     display: inline;
+    font-size: 12px;
 }
