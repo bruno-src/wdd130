@@ -337,36 +337,7 @@ main.trips-page {
   font-size: 0.9rem;
   letter-spacing: 0.02em;
 }
-/*
-.site-footer {
-  background: #004d40;
-  color: white;
-  padding: 25px 0;
-  margin-top: 50px;
-}
 
-.footer-inner {
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 0 20px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  flex-wrap: wrap;
-  gap: 15px;
-}
-
-.footer-inner p {
-  margin: 0;
-  font-size: 0.9rem;
-  font-weight: 400;
-}
-
-nav.socialmedia a {
-  margin-left: 20px;
-  display: inline-block;
-}
-*/
 nav.socialmedia a img {
   width: 24px;
   height: 24px;
@@ -421,7 +392,7 @@ nav.socialmedia a:hover img {
 
 .home-hero h1 {
   position: absolute;
-  top: 50%;
+  top: 15%;
   left: 50%;
   transform: translate(-50%, -50%);
   font-size: 3rem;
